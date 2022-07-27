@@ -1,0 +1,138 @@
+*{
+    color: #3D3942; 
+}
+body{
+    background-color: rgb(251, 251, 251);
+}
+textarea {
+    width: 95%;
+    border: 5px solid hsl(0, 100%, 70%);
+    padding: 5px;
+    margin: 2px 0;
+}
+
+.box {
+    background-color: #F4F4F4;
+    width: 46%;
+    padding: 11px;
+    border-radius: 10px;
+    float: left;
+    margin: 5px;
+    border: 1px solid #000000; 
+}
+
+h1 {text-align: center;
+    font-size: 50px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color:#F25F5C;
+}
+
+.graph{
+    text-align: center;
+    overflow-x: scroll;
+    max-height: 650px; 
+    
+}
+
+.box h2 {
+    text-align: center;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    border-left: 1px solid rgb(244, 244, 244);
+    padding: 5px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color:#F25F5C;
+}
+
+.box #result {
+    background: #F25F5C;
+    color: rgb(8, 8, 8); 
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+/* table */
+table {
+    width: 100%;
+    box-shadow: -3px 3px #ec9999; 
+}
+
+table, th, td {
+
+    border-collapse: collapse;
+}
+
+table, th {
+
+    border-bottom: 2px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(244, 176, 176);
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table tr {
+    overflow: hidden;
+    width: 20px;
+}
+
+table th {
+    background-color: #F25F5C;
+    color: rgb(0, 0, 0);
+}
+
+.code {
+    word-break: break-all;
+}
+/* end table */
+
+/* Graph */
+
+.node circle {
+    fill: #fff;
+    stroke: #DCDCDC;
+    background-color: #ec9999;
+}
+
+.node text {
+    font: 14px sans-serif;
+    font-weight: bold;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+}
+/* End graph*/
+
+/*Media for small screens*/
+@media all and (max-width: 800px) {
+    .deCoder {
+        width: 90%;
+        float: left;
+    }
+    .enCoder {
+        width: 90%;
+        float: left;
+    }
+    .graph {
+        width: 90%;
+        float: left;
+    }
+}

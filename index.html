@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0, minimum-scale=1">
+    <title>Huffman Encoding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1> <i>Huffman Coding</i> </h1>
+    </header>
+    <!-- Encoder -->
+    <div class="box enCoder">
+        <h2><i>Encoder</i></h2>
+        <textarea type="text" id="enCoder" placeholder="type text " autofocus></textarea>
+        <table>
+            <tbody>
+                <tr>
+                    <th>Character</th>
+                    <th>Frequency</th>
+                    <th>%</th>
+                    <th>Code</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Decoder -->
+    <div class="box deCoder">
+        <h2><i>Decoder</i></h2>
+        <textarea disabled type="text" id="deCoder" placeholder="insert code"></textarea>
+        <div id="result"></div>
+    </div>
+    <!-- Graph -->
+    <div class="box graph">
+        <h2><i>Graph</i></h2>
+    </div>
+
+    <script src="java_script/HuffmanCodeing.js"></script>
+    <script src="java_script/d3js.js"></script>
+    <script src="java_script/graph.js"></script>
+    <script src="java_script/script.js"></script>
+</body>
+
+</html>
